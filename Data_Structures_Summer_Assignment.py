@@ -40,6 +40,7 @@ for time_start_key in time_table_dict:
 for person in range(1,(number_of_people+1)):
     if person not in points_dict:
         min_points_person = person
+        min_points = 0
         break
     else:
         if points_dict[person] < min_points or min_points_person == None:
